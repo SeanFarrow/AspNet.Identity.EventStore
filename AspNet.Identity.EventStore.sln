@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{A21E75C2-BCB9-411B-B2E1-5DDF61C9C1DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{EC97FCF6-BF39-48B8-8314-E005D8766BB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNet.Identity.EventStore.Tests", "Tests\AspNet.Identity.EventStore.Tests\AspNet.Identity.EventStore.Tests.csproj", "{D93F36B2-F279-48A5-9E5F-F4E7A1F0A7FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D93F36B2-F279-48A5-9E5F-F4E7A1F0A7FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D93F36B2-F279-48A5-9E5F-F4E7A1F0A7FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D93F36B2-F279-48A5-9E5F-F4E7A1F0A7FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D93F36B2-F279-48A5-9E5F-F4E7A1F0A7FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D93F36B2-F279-48A5-9E5F-F4E7A1F0A7FF} = {EC97FCF6-BF39-48B8-8314-E005D8766BB5}
+	EndGlobalSection
+EndGlobal
